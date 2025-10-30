@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle">Tech Conference</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">MERN Stack Workshop</text>
+  <rect x="200" y="280" width="400" height="150" rx="20" fill="#93c5fd" opacity="0.3"/>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Learn Modern Web Development</text>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">Hands-on Coding Session</text>
+</svg>
