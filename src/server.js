@@ -69,14 +69,14 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ message: err.message || 'Server error' });
 });
 
-async function start() {
-  await connectDB();
-  initSocket(server, env.clientUrl);
-  server.listen(env.port, () => {
-    console.log(`Server running on http://localhost:${env.port}`);
-  });
-}
+// async function start() {
+//   await connectDB();
+//   initSocket(server, env.clientUrl);
+//   server.listen(env.port, () => {
+//     console.log(`Server running on http://localhost:${env.port}`);
+//   });
+// }
 
-start();
+// start();
 
 
